@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header > h1 {
+    font: small-caps 25vh "Passion One", sans-serif;
+    padding-top: 10vh;
+}
+
+header > p {
+    font: 1.25vw Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10vh;
+}
+
+footer {
+    text-align: center;
+    font: 1.25vw Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+section {
+    font: 3.5vw "Sriracha", sans-serif;
+    padding: 20vh 0vh 20vh 3vw;
+    text-align: left;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.branco {
+    background-color: white;
+}
+
+section#sem-fundo1 {
+    background: url(../imagens/background001.jpg) center center fixed;
+    background-size: cover;
+}
+
+section#sem-fundo2 {
+    background: url(../imagens/background002.jpg) center center fixed;
+    background-size: cover;
+}
+
+.foto {
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    max-width: 50vw;
+}
